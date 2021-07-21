@@ -6,7 +6,7 @@
   "author": "",
   "description": "",
   "scripts": {
-    "browsersync": "browser-sync start --directory --server ./public --files ./public/* --startPath index.html",
+    "browsersync": "browser-sync start --directory --server ./public --files ./public/* --startPath /public/index.html",
     "clean": "rimraf public/*",
     "copy-assets": "cpx \"src/assets/**/*.*\" public/",
     "css-compile": "tailwind build -i src/tailwind/tailwind.css -c src/tailwind/tailwind.config.js -o public/css/tailwind/tailwind.css",
