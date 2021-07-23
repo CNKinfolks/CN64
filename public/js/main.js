@@ -37,20 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     }
-
-    $(document).ready(function(){
-        $('#purpose').on('change', function() {
-          if ( this.value == '1')
-          {
-            $("#business").show();
-          }
-          else
-          {
-            $("#business").hide();
-          }
-        });
-    });
-
-
-
 });
