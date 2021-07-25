@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Colleague Directory</title>
+    <title>CN64 - Add Colleague</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -682,41 +682,59 @@
         <input class="block w-full px-4 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" type="text" name="" placeholder="Please enter a name" data-config-id="02_input">
       </div>
 
+
+ <!-- Colleague -->
+
+
+      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label"> Colleague Type</label>
+      <div class="relative">
+       <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+         <option data-config-id="04_opt1">Permanent</option>
+         <option data-config-id="04_opt2">Contractor</option>
+         <option data-config-id="04_opt3">Fixed Term</option>
+       </select>
+       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+         </svg>
+       </div>
+      </div>
+
+
+
+
+
       
       <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Role </h1>
       
+      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Select Job Role</label>
+      <div class="relative">
+       <select class="appearance-none block w-full px-5 py-3 mb-4 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+        <option data-config-id="04_opt1"> JOR001-Senior Business Analyst</option>
+         <option data-config-id="04_opt2">JOR002-Business Analyst</option>
+         <option data-config-id="04_opt3">JOR003-Delivery Manager</option>
+       </select>
+       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+         </svg>
+       </div>
+      </div>
+
+
+
+       <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Job Role Information</h1>
+       <div class="mb-6">
+         <label class="block text-sm font-medium mb-2" for="" data-config-id="02_label">Role Name</label>
+         <input class="block w-full px-4 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" type="text" name="" placeholder="Please enter a name" data-config-id="02_input">
+       </div>
+
       
-      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Job Family</label>
-      <div class="relative">
-       <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
-        <option data-config-id="04_opt1"> JOF001-Data</option>
-         <option data-config-id="04_opt2">JOF002-Project Delivery</option>
-         <option data-config-id="04_opt3">JOF003-Business Analysis</option>
-       </select>
-       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
-         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
-           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-         </svg>
-       </div>
-      </div>
+       <!-- Business Job Role Job Role -->
+      
+      <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Role Level</h1>
 
-
-      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label"> Job Role</label>
-      <div class="relative">
-       <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
-         <option data-config-id="04_opt1">JOR001-Business Analyst</option>
-         <option data-config-id="04_opt2">JOR002-Project Manager</option>
-         <option data-config-id="04_opt3">JOR003-Project</option>
-       </select>
-       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
-         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
-           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-         </svg>
-       </div>
-      </div>
-
-
-      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label"> Job Level</label>
+      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Level</label>
       <div class="relative">
        <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
          <option data-config-id="04_opt1">Associate</option>
@@ -727,6 +745,7 @@
          <option data-config-id="04_opt3">Head of</option>
          <option data-config-id="04_opt3">Deputy Director</option>
          <option data-config-id="04_opt3">Director</option>
+
        </select>
        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
          <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
@@ -734,33 +753,99 @@
          </svg>
        </div>
       </div>
-
-
-
-
-      <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Profession </h1>
+     
+       <!-- Business Job Role Job Role -->
+     
       
-      
-      <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Profession </label>
-      <div class="relative">
-       <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
-         <option data-config-id="04_opt1">PRO001 - Business Analysis</option>
-         <option data-config-id="04_opt2">PRO002 - Project Management</option>
-         <option data-config-id="04_opt3">PRO003 - Programme Management</option>
-         <option data-config-id="04_opt4">PRO004 - Performance Analysis</option>
-       </select>
-       <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
-         <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
-           <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-         </svg>
+       <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Grade</h1>
+
+     
+       <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Grade
+       <div class="relative">
+        <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+          <option data-config-id="04_opt1">SCS4</option>
+          <option data-config-id="04_opt2">SCS3</option>
+          <option data-config-id="04_opt3">SCS2</option>
+          <option data-config-id="04_opt3">SCS1</option>
+          <option data-config-id="04_opt3">G6</option>
+          <option data-config-id="04_opt3">G7</option>
+          <option data-config-id="04_opt3">SEO</option>
+          <option data-config-id="04_opt3">HEO</option>
+          <option data-config-id="04_opt3">EO</option>
+          <option data-config-id="04_opt3">AO</option>
+          <option data-config-id="04_opt3">AA</option>
+         
+        </select>
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+          <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+          </svg>
+        </div>
        </div>
-      </div> 
 
 
+
+
+             <!-- Business Job Role Job Role -->
+     
       
+             <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Role Family</h1>
+
+     
+             <label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Role Family</label>
+             <div class="relative">
+              <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+                <option data-config-id="04_opt1">Data</option>
+                <option data-config-id="04_opt2">IT Operations</option>
+                <option data-config-id="04_opt3">Product and Delivery</option>
        
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                </svg>
+              </div>
+             </div>
+      
+
+             <!-- Business Job Role Job Role -->
+
+        <h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Profession </h1>
       
       
+<label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Profession </label>
+<div class="relative">
+ <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+   <option data-config-id="04_opt1">PRO001 - Business Analysis</option>
+   <option data-config-id="04_opt2">PRO002 - Project Management</option>
+   <option data-config-id="04_opt3">PRO003 - Programme Management</option>
+   <option data-config-id="04_opt4">PRO004 - Performance Analysis</option>
+ </select>
+ <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+   <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+   </svg>
+ </div>
+</div> 
+
+<!-- Status label and selection -->
+<h1 class="mb-2 text-lg font-bold font-heading" data-config-id="header">Status </h1>
+<label class="block text-sm font-medium mb-2" for="" data-config-id="04_label">Status </label>
+<div class="relative">
+ <select class="appearance-none block w-full px-5 py-3 mb-2 text-sm placeholder-gray-500 bg-white border rounded" name="field-name" data-config-id="04_select">
+   <option data-config-id="04_opt1">Active</option>
+   <option data-config-id="04_opt2">Deactivated</option>
+   <option data-config-id="04_opt3">Pause</option>
+ </select>
+ <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-500">
+   <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20">
+     <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+   </svg>
+ </div>
+</div>
+      
+
+
       <!-- Form Buttons  -->
       
       <div class="flex-row-reverse gap-y-10" data-container="1">
